@@ -7,6 +7,6 @@ public class test {
         System.out.println(array[2]);
         System.out.println(test.isEmpty());
         System.out.println(test.concat("Vova"));
-        System.out.println(test.compa("he "));
+
     }
 }
