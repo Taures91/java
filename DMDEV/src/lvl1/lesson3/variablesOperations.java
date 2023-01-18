@@ -1,4 +1,4 @@
-package startlessons.lesson3;
+package DMDEV.src.lvl1.lesson3;
 
 public class variablesOperations {
     public static void main(String[] args) {
@@ -8,13 +8,13 @@ public class variablesOperations {
 
         int num2 = -20;
         boolean test1 = num2 < 0;
-        System.out.println(!test);
+        System.out.println("2:" + test1);
 
         int num3 = 15;
         boolean test3 = num3 >= 0;
         System.out.println(test3);
 
-        int num4 = -10;
+        int num4 = 0;
         boolean test4 = num4 != 0;
         System.out.println(test4);
 
@@ -24,5 +24,6 @@ public class variablesOperations {
 
         System.out.println(test1 && test3);
         System.out.println(test1 || test4 || test5);
+        System.out.println(test4 && test3 || test5);
     }
 }

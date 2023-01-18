@@ -3,23 +3,23 @@ package startlessons.lesson4;
 import java.util.Scanner;
 
 /*
-3. РРјРµРµС‚СЃСЏ С†РµР»РѕРµ С‡РёСЃР»Рѕ, РІРІРѕРґРёРјРѕРµ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј СЃ РєРѕРЅСЃРѕР»Рё. Р­С‚Рѕ - СЃСѓРјРјР° РґРµРЅРµРі РІ СЂСѓР±Р»СЏС…. Р’С‹РІРµСЃС‚Рё СЌС‚Рѕ С‡РёСЃР»Рѕ, РґРѕР±Р°РІРёРІ Рє РЅРµРјСѓ
-СЃР»РѕРІРѕ "СЂСѓР±Р»СЊ" РІ РїСЂР°РІРёР»СЊРЅРѕРј РїР°РґРµР¶Рµ.
+3. Имеется целое число, вводимое пользователем с консоли. Это - сумма денег в рублях. Вывести это число, добавив к нему
+слово "рубль" в правильном падеже.
  */
 public class IfElseExapmle3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Р’РІРµРґРёС‚Рµ СЃСѓРјРјСѓ: ");
+        System.out.println("Введите сумму: ");
         int sum = scan.nextInt();
 
         if (sum % 10 == 1 && sum % 100 != 11) {
-            System.out.println(sum + " СЂСѓР±Р»СЊ");
+            System.out.println(sum + " рубль");
         } else if ((sum % 10 == 2 || sum % 10 == 3 || sum % 10 == 4)
                 && (sum % 100 != 12 && sum % 100 != 13 && sum % 100 != 14))
         {
-            System.out.println(sum + " СЂСѓР±Р»СЏ");
+            System.out.println(sum + " рубля");
         } else{
-            System.out.println(sum + " СЂСѓР±Р»РµР№");
+            System.out.println(sum + " рублей");
         }
 
 

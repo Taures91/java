@@ -1,17 +1,17 @@
-package startlessons.lesson4;
+package DMDEV.src.lvl1.lesson4;
 
 /*
-2. Р”Р°РЅРѕ С†РµР»РѕРµ С‡РёСЃР»Рѕ. РћРїСЂРµРґРµР»РёС‚СЊ СЏРІР»СЏРµС‚СЃСЏ Р»Рё РїРѕСЃР»РµРґРЅСЏСЏ С†РёС„СЂР° С‡РёСЃР»Р° С†РёС„СЂРѕР№ 3.
+2. Дано целое число. Определить является ли последняя цифра числа цифрой 3.
  */
 public class IfElseExapmle2 {
     public static void main(String[] args) {
         int num1 = 453;
         int num2 = num1 % 10;
-        System.out.println("РџРѕСЃР»РµРґРЅСЏСЏ С†РёС„СЂР° СЂР°РІРЅР°: " + num2);
+        System.out.println("Последняя цифра равна: " + num2);
         if (num2 == 3) {
-            System.out.println("РЇРІР»СЏРµС‚СЃСЏ");
+            System.out.println("Является");
         } else {
-            System.out.println("РќРµ СЏРІР»СЏРµС‚СЃСЏ");
+            System.out.println("Не является");
         }
     }
 }
